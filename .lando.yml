@@ -1,0 +1,4 @@
+name: component-integration
+recipe: drupal8
+config:
+  webroot: web
