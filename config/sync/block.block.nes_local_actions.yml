@@ -1,0 +1,20 @@
+uuid: a902aeeb-e693-47af-bd29-b010a9a43258
+langcode: en
+status: true
+dependencies:
+  theme:
+    - nes
+_core:
+  default_config_hash: 13GQpeITIJsp1kyPniXtWZfyFH87vb1xxJCHifL4UeE
+id: nes_local_actions
+theme: nes
+region: content
+weight: -20
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  provider: core
+  label_display: '0'
+visibility: {  }

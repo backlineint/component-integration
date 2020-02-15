@@ -1,0 +1,15 @@
+name: NES
+type: theme
+description: 'Component integration example theme using nes.css'
+package: Other
+core: 8.x
+libraries:
+  - nes/global-styling
+ 
+base theme: classy
+#Using Classy as a base theme https://www.drupal.org/theme-guide/8/classy
+
+regions:
+  header: Header
+  content: Content
+  footer: Footer

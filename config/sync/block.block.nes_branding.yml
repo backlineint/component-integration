@@ -1,0 +1,25 @@
+uuid: 375779f6-00c1-41cf-b9a2-1f389a9fd035
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - nes
+_core:
+  default_config_hash: NDwadleLD3YVSbDUaakxyYZyINYtkFtOVGShfq4kWy8
+id: nes_branding
+theme: nes
+region: header
+weight: 0
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  provider: system
+  label_display: '0'
+  use_site_logo: true
+  use_site_name: true
+  use_site_slogan: true
+visibility: {  }
