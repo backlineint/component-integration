@@ -1,0 +1,20 @@
+<div class="nes-container with-title is-centered">
+  {% if title %}
+    <p class="title">{{ title }}</p>
+  {% endif %}
+  {% if platform or year %}
+    <div class="nes-badge is-splited">
+      {% if platform %}<span class="is-dark">{{ platform }}</span>{% endif %}
+      {% if year %}<span class="is-success">{{ year }}</span>{% endif %}
+    </div>
+  {% endif %}
+  {% if image %}
+    {{ image }}
+  {% endif %}
+  {% if body %}
+    {{ body }}
+  {% endif %}
+  {% if link %}
+    <a class="nes-btn is-primary" href={{ link }}>Press Start</a>
+  {% endif %}
+</div>
