@@ -11,7 +11,7 @@ _core:
 id: nes_help
 theme: nes
 region: content
-weight: -30
+weight: -1
 provider: null
 plugin: help_block
 settings:

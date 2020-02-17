@@ -9,7 +9,7 @@ _core:
 id: nes_local_tasks
 theme: nes
 region: content
-weight: -40
+weight: -2
 provider: null
 plugin: local_tasks_block
 settings:

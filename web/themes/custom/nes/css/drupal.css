@@ -1,0 +1,7 @@
+header, main {
+  margin: 0 2rem;
+} 
+
+.site-name {
+  display: inline-block;
+}

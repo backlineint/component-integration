@@ -9,7 +9,7 @@ _core:
 id: nes_page_title
 theme: nes
 region: content
-weight: -50
+weight: -3
 provider: null
 plugin: page_title_block
 settings:

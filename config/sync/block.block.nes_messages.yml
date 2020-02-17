@@ -10,8 +10,8 @@ _core:
   default_config_hash: KHQIJ7Vfl25lTjzIc7qIvnuistt-Mw2O0kG4jCofmkI
 id: nes_messages
 theme: nes
-region: header
-weight: 0
+region: content
+weight: -4
 provider: null
 plugin: system_messages_block
 settings:

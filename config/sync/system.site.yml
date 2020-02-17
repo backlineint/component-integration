@@ -1,11 +1,11 @@
 uuid: 09c9f9a1-d7bc-4ede-a859-7b41ab8d0ce3
-name: 'Component Integration'
+name: 'Component Integration Sandbox'
 mail: admin@example.com
 slogan: ''
 page:
   403: ''
   404: ''
-  front: /node
+  front: /games
 admin_compact_mode: false
 weight_select_max: 100
 langcode: en

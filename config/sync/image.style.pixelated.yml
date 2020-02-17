@@ -1,0 +1,15 @@
+uuid: 6730d645-17c3-41ec-b9ff-9d0e2c16c355
+langcode: en
+status: true
+dependencies: {  }
+name: pixelated
+label: Pixelated
+effects:
+  4c012405-626f-47cb-af8d-a27724981e66:
+    uuid: 4c012405-626f-47cb-af8d-a27724981e66
+    id: image_scale
+    weight: 1
+    data:
+      width: 100
+      height: null
+      upscale: false
