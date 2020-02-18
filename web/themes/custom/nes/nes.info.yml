@@ -13,3 +13,8 @@ regions:
   header: Header
   content: Content
   footer: Footer
+
+component-libraries:
+  components:
+    paths:
+      - nes-components/source/_patterns/03-components

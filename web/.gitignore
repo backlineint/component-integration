@@ -10,6 +10,7 @@
 # Ignore core when managing all of a project's dependencies with Composer
 # including Drupal core.
 core
+modules/contrib
 
 # Ignore dependencies that are managed with Composer.
 # Generally you should only ignore the root vendor directory. It's important
