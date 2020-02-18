@@ -1,38 +1,46 @@
-<div class="l-grid">
-  {% include '@components/container/c-container.twig'
-    with {
-      'title': 'Super Mario Galaxy 2',
-      'platform': 'Wii',
-      'year': '2010',
-      'image': '<img src="/images/mario.jpg" />',
-      'body': "<p>Super Mario Galaxy 2 is a platform video game developed and published by Nintendo for the Wii.</p>"
-    }
-  %}
-  {% include '@components/container/c-container.twig'
-    with {
-      'title': 'Super Mario Galaxy 2',
-      'platform': 'Wii',
-      'year': '2010',
-      'image': '<img src="/images/mario.jpg" />',
-      'body': "<p>Super Mario Galaxy 2 is a platform video game developed and published by Nintendo for the Wii.</p>"
-    }
-  %}
-  {% include '@components/container/c-container.twig'
-    with {
-      'title': 'Super Mario Galaxy 2',
-      'platform': 'Wii',
-      'year': '2010',
-      'image': '<img src="/images/mario.jpg" />',
-      'body': "<p>Super Mario Galaxy 2 is a platform video game developed and published by Nintendo for the Wii.</p>"
-    }
-  %}
-  {% include '@components/container/c-container.twig'
-    with {
-      'title': 'Super Mario Galaxy 2',
-      'platform': 'Wii',
-      'year': '2010',
-      'image': '<img src="/images/mario.jpg" />',
-      'body': "<p>Super Mario Galaxy 2 is a platform video game developed and published by Nintendo for the Wii.</p>"
-    }
-  %}
-</div>
+{% embed '@layouts/grid/_l-grid.twig' %}
+
+  {% block results %}
+    {% include '@components/container/c-container.twig'
+      with {
+        'title': 'Super Mario Galaxy 2',
+        'platform': 'Wii',
+        'year': '2010',
+        'image': '<img src="/images/mario.jpg" />',
+        'body': "<p>Super Mario Galaxy 2 is a platform video game developed and published by Nintendo for the Wii.</p>",
+        'link': "#"
+      }
+    %}
+    {% include '@components/container/c-container.twig'
+      with {
+        'title': 'Super Mario Galaxy 2',
+        'platform': 'Wii',
+        'year': '2010',
+        'image': '<img src="/images/mario.jpg" />',
+        'body': "<p>Super Mario Galaxy 2 is a platform video game developed and published by Nintendo for the Wii.</p>",
+        'link': "#"
+      }
+    %}
+    {% include '@components/container/c-container.twig'
+      with {
+        'title': 'Super Mario Galaxy 2',
+        'platform': 'Wii',
+        'year': '2010',
+        'image': '<img src="/images/mario.jpg" />',
+        'body': "<p>Super Mario Galaxy 2 is a platform video game developed and published by Nintendo for the Wii.</p>",
+        'link': "#"
+      }
+    %}
+    {% include '@components/container/c-container.twig'
+      with {
+        'title': 'Super Mario Galaxy 2',
+        'platform': 'Wii',
+        'year': '2010',
+        'image': '<img src="/images/mario.jpg" />',
+        'body': "<p>Super Mario Galaxy 2 is a platform video game developed and published by Nintendo for the Wii.</p>",
+        'link': "#"
+      }
+    %}
+  {% endblock %}
+
+{% endembed %}

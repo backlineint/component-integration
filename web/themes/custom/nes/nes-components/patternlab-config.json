@@ -114,6 +114,13 @@
           ]
         },
         {
+          "id": "layouts",
+          "recursive": true,
+          "paths": [
+            "source/_patterns/04-layouts"
+          ]
+        },
+        {
           "id": "macros",
           "recursive": true,
           "paths": [

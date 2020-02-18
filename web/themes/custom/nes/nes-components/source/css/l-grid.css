@@ -15,3 +15,7 @@
     grid-template-columns: repeat(3, 1fr);
   }
 }
+
+.l-grid article {
+  height: 100%;
+}
