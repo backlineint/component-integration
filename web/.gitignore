@@ -11,6 +11,8 @@
 # including Drupal core.
 core
 modules/contrib
+themes/contrib
+themes/custom/nes_emulsify
 
 # Ignore dependencies that are managed with Composer.
 # Generally you should only ignore the root vendor directory. It's important
