@@ -1,0 +1,22 @@
+uuid: e478fe12-fd71-4dd9-9a3d-93e9b6360d99
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - nes_emulsify
+_core:
+  default_config_hash: 9EoWV2Lot6FVSr50t4hoKgiz1LIXYWNG-IIPYsWxBqo
+id: nes_emulsify_content
+theme: nes_emulsify
+region: content
+weight: 1
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  provider: system
+  label_display: '0'
+visibility: {  }

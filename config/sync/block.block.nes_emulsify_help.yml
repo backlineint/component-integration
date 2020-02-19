@@ -1,0 +1,22 @@
+uuid: 82c38ba8-5913-429c-b3f3-4ca69fff977a
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - nes_emulsify
+_core:
+  default_config_hash: 8I8iACSa0sKO3k3jlvUG1ge52rfcKX7USJAQYnzuBgg
+id: nes_emulsify_help
+theme: nes_emulsify
+region: content
+weight: -1
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  provider: help
+  label_display: '0'
+visibility: {  }

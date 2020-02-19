@@ -1,0 +1,22 @@
+uuid: f8c9f2a6-692a-4768-9173-4149c9a41ffe
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - nes_emulsify
+_core:
+  default_config_hash: KHQIJ7Vfl25lTjzIc7qIvnuistt-Mw2O0kG4jCofmkI
+id: nes_emulsify_messages
+theme: nes_emulsify
+region: content
+weight: -4
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  provider: system
+  label_display: '0'
+visibility: {  }

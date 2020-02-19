@@ -1,0 +1,20 @@
+uuid: d3a4d162-9de1-4024-bc8a-d0182ff54468
+langcode: en
+status: true
+dependencies:
+  theme:
+    - nes_emulsify
+_core:
+  default_config_hash: 13GQpeITIJsp1kyPniXtWZfyFH87vb1xxJCHifL4UeE
+id: nes_emulsify_local_actions
+theme: nes_emulsify
+region: content
+weight: 0
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  provider: core
+  label_display: '0'
+visibility: {  }

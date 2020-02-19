@@ -1,0 +1,22 @@
+uuid: c05f2dfa-592b-4319-b5c7-490e9a538703
+langcode: en
+status: true
+dependencies:
+  theme:
+    - nes_emulsify
+_core:
+  default_config_hash: X9I1OB0W3WlWtrK-CNcg6hNWwa8wficanpH8pYnDZDE
+id: nes_emulsify_local_tasks
+theme: nes_emulsify
+region: content
+weight: -2
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  provider: core
+  label_display: '0'
+  primary: true
+  secondary: true
+visibility: {  }

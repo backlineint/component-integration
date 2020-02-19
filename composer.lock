@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "505dd1c9ea8ff49bcdcdd9e1c6a40502",
+    "content-hash": "0d36639b00b400e5a0bd5f0825744f0f",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -1619,6 +1619,53 @@
             "time": "2020-02-01T19:51:15+00:00"
         },
         {
+            "name": "drupal/emulsify_twig",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/emulsify_twig.git",
+                "reference": "8.x-1.0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/emulsify_twig-8.x-1.0.zip",
+                "reference": "8.x-1.0",
+                "shasum": "f31caba7ee80fb85203552b7d3abb7d37e5c5ca3"
+            },
+            "require": {
+                "drupal/core": "~8.0"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-1.x": "1.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-1.0",
+                    "datestamp": "1573841584",
+                    "security-coverage": {
+                        "status": "not-covered",
+                        "message": "Project has not opted into security advisory coverage!"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "evanmwillhite",
+                    "homepage": "https://www.drupal.org/user/562168"
+                }
+            ],
+            "description": "BEM and Add Attributes Twig Extensions for Drupal",
+            "homepage": "https://www.drupal.org/project/emulsify_twig",
+            "support": {
+                "source": "https://git.drupalcode.org/project/emulsify_twig"
+            }
+        },
+        {
             "name": "easyrdf/easyrdf",
             "version": "0.9.1",
             "source": {
@@ -1737,6 +1784,51 @@
                 "validator"
             ],
             "time": "2019-08-13T17:33:27+00:00"
+        },
+        {
+            "name": "emulsify-ds/emulsify-design-system",
+            "version": "v1.0.0-alpha.5",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/emulsify-ds/emulsify-design-system.git",
+                "reference": "2b0210e666129bffab3a188b5d0f7117f67fc5d8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/emulsify-ds/emulsify-design-system/zipball/2b0210e666129bffab3a188b5d0f7117f67fc5d8",
+                "reference": "2b0210e666129bffab3a188b5d0f7117f67fc5d8",
+                "shasum": ""
+            },
+            "require": {
+                "drupal/components": "^1.0",
+                "drupal/emulsify_twig": "^1.0"
+            },
+            "type": "drupal-theme",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0-only"
+            ],
+            "authors": [
+                {
+                    "name": "Brian Lewis",
+                    "email": "brian@fourkitchens.com"
+                },
+                {
+                    "name": "Chris Martin",
+                    "email": "chris.martin@fourkitchens.com"
+                },
+                {
+                    "name": "Evan Willhite",
+                    "email": "evan@fourkitchens.com"
+                },
+                {
+                    "name": "Randy Oest",
+                    "email": "randy@fourkitchens.com"
+                }
+            ],
+            "description": "Gatsby Styleguide + Storybook Pattern Library + Drupal 8 Theme",
+            "homepage": "http://emulsify.info",
+            "time": "2019-11-21T15:37:16+00:00"
         },
         {
             "name": "guzzlehttp/guzzle",
@@ -4965,7 +5057,9 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": [],
+    "stability-flags": {
+        "emulsify-ds/emulsify-design-system": 15
+    },
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": [],

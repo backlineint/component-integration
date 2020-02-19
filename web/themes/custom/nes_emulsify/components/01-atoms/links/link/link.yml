@@ -1,0 +1,4 @@
+link_url: 'https://github.com/nes_emulsify-ds/nes_emulsify-design-system'
+link_content: 'This is my link text'
+link_attributes:
+  'target': '_blank'
