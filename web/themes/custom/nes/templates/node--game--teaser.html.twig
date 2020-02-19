@@ -82,14 +82,5 @@
 %}
 {{ attach_library('classy/node') }}
 <article{{ attributes.addClass(classes) }}>
-  {% include "@components/container/c-container.twig" 
-    with {
-      'title': label,
-      'link': url,
-      'platform': content.field_platform,
-      'year': content.field_year,
-      'image': content.field_image,
-      'body': content.body
-    }
-  %}
+  {% include "@components/container/c-container.twig" %}
 </article>
