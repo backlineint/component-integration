@@ -1,0 +1,40 @@
+container:
+  label: Container
+  description: A container component from NES.css
+  fields:
+    title:
+      type: text
+      label: Title
+      description: Game title.
+      preview: Super Mario Galaxy 2
+    platform:
+      type: text
+      label: Platform
+      description: Console or platform
+      preview: Wii
+    year:
+      type: text
+      label: Year
+      description: Year of release
+      preview: 2010
+    image:
+      type: image
+      label: Image
+      desciption: Box art
+      preview: <img src="/themes/custom/nes/nes-components/source/images/mario.jpg" />
+    body:
+      type: text
+      label: Body
+      description: Body text
+      preview: <p>Super Mario Galaxy 2 is a platform video game developed and published by Nintendo for the Wii.</p>
+    link:
+      type: url
+      label: Link
+      description: link to node
+      preview: '#'
+  libraries:
+    - pattern_library_one:
+       css:
+         component:
+           ../../nes-components/source/css/c-container.css: {}
+  use: "@components/container/c-container.twig"

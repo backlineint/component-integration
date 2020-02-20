@@ -3,7 +3,6 @@ global-styling:
   css:
     theme:
       nes-components/source/css/nes.min.css: {}
-      nes-components/source/css/c-container.css: {}
       nes-components/source/css/l-grid.css: {}
       css/drupal.css: {}
       https://fonts.googleapis.com/css?family=Press+Start+2P: { type: external }

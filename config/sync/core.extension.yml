@@ -38,6 +38,9 @@ module:
   text: 0
   toolbar: 0
   tour: 0
+  ui_patterns: 0
+  ui_patterns_library: 0
+  ui_patterns_views: 0
   user: 0
   views_ui: 0
   menu_link_content: 1
