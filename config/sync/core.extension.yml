@@ -40,6 +40,7 @@ module:
   tour: 0
   ui_patterns: 0
   ui_patterns_library: 0
+  ui_patterns_pattern_lab: 0
   ui_patterns_views: 0
   user: 0
   views_ui: 0

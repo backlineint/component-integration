@@ -21,7 +21,8 @@
         "drupal/core-composer-scaffold": "^8.8",
         "drupal/core-project-message": "^8.8",
         "drupal/core-recommended": "^8.8",
-        "drupal/ui_patterns": "^1.1"
+        "drupal/ui_patterns": "^1.1",
+        "drupal/ui_patterns_pattern_lab": "^1.0@alpha"
     },
     "require-dev": {
     },

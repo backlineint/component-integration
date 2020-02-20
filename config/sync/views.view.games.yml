@@ -87,7 +87,7 @@ display:
             field_year: 0
           separator: ''
           hide_empty: 1
-          pattern: container
+          pattern: c_container
           pattern_mapping:
             'views_row:title':
               destination: title

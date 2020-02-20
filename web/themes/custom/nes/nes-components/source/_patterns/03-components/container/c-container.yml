@@ -2,6 +2,6 @@ title: Container
 platform: Wii
 year: 2010
 image: > 
-  <img src="/images/mario.jpg" />
+  <img src="/themes/custom/nes/nes-components/source/images/mario.jpg" />
 body: <p>Super Mario Galaxy 2 is a platform video game developed and published by Nintendo for the Wii.</p>
 link: '#'
