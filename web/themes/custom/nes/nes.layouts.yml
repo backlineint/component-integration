@@ -1,0 +1,19 @@
+container:
+  label: 'Container'
+  category: 'NES'
+  template: templates/container-layout
+  default_region: body
+  regions:
+    title:
+      label: Title
+    platform:
+      label: Platform
+    year:
+      label: Year
+    image:
+      label: Image
+    body:
+      label: Body
+    link:
+      label: Link
+      

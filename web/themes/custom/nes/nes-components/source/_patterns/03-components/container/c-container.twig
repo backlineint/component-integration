@@ -1,20 +1,28 @@
-<div class="nes-container with-title is-centered">
-  {% if title %}
-    <h2 class="title"><a href={{ link }}>{{ title }}</a></h2>
-  {% endif %}
-  {% if platform or year %}
-    <div class="nes-badge is-splited">
-      {% if platform %}<span class="is-dark">{{ platform }}</span>{% endif %}
-      {% if year %}<span class="is-success">{{ year }}</span>{% endif %}
-    </div>
-  {% endif %}
-  {% if image %}
-    {{ image }}
-  {% endif %}
-  {% if body %}
-    {{ body }}
-  {% endif %}
-  {% if link %}
-    <a class="nes-btn is-primary" href={{ link }}>Press Start</a>
-  {% endif %}
+<div {{ attributes.addClass('container') }}>
+  <div class="nes-container with-title is-centered">
+    {% if title %}
+      <div {{ region_attributes.title.addClass('title-region') }}>
+        <h2 class="title"><a href={{ link }}>{{ title }}</a></h2>
+      </div>
+    {% endif %}
+    {% if platform or year %}
+      <div class="nes-badge is-splited">
+        {% if platform %}<span class="is-dark">{{ platform }}</span>{% endif %}
+        {% if year %}<span class="is-success">{{ year }}</span>{% endif %}
+      </div>
+    {% endif %}
+    {% if image %}
+      <div {{ region_attributes.image.addClass('image-region') }}>
+        {{ image }}
+      </div>
+    {% endif %}
+    {% if body %}
+      <div {{ region_attributes.body.addClass('body-region') }}>
+        {{ body }}
+      </div>
+    {% endif %}
+    {% if link %}
+      <a class="nes-btn is-primary" href={{ link }}>Press Start</a>
+    {% endif %}
+  </div>
 </div>

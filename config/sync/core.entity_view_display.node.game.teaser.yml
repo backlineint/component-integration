@@ -12,8 +12,117 @@ dependencies:
     - node.type.game
   module:
     - image
+    - layout_builder
     - text
     - user
+  theme:
+    - nes
+third_party_settings:
+  layout_builder:
+    allow_custom: false
+    enabled: true
+    sections:
+      -
+        layout_id: container
+        layout_settings:
+          label: Container
+        components:
+          efafd95c-edaa-4132-80b3-d2b0a07c9650:
+            uuid: efafd95c-edaa-4132-80b3-d2b0a07c9650
+            region: title
+            configuration:
+              id: 'field_block:node:game:title'
+              label: Title
+              provider: layout_builder
+              label_display: '0'
+              formatter:
+                label: hidden
+                type: string
+                settings:
+                  link_to_entity: false
+                third_party_settings: {  }
+              context_mapping:
+                entity: layout_builder.entity
+                view_mode: view_mode
+            additional: {  }
+            weight: 0
+          8cc90df0-b030-4ec9-a6e0-70b4df798f12:
+            uuid: 8cc90df0-b030-4ec9-a6e0-70b4df798f12
+            region: body
+            configuration:
+              id: 'field_block:node:game:body'
+              label: Body
+              provider: layout_builder
+              label_display: '0'
+              formatter:
+                label: hidden
+                type: text_default
+                settings: {  }
+                third_party_settings: {  }
+              context_mapping:
+                entity: layout_builder.entity
+                view_mode: view_mode
+            additional: {  }
+            weight: 0
+          e582e7fe-aea1-427a-9057-12252d9dbd81:
+            uuid: e582e7fe-aea1-427a-9057-12252d9dbd81
+            region: image
+            configuration:
+              id: 'field_block:node:game:field_image'
+              label: Image
+              provider: layout_builder
+              label_display: '0'
+              formatter:
+                label: hidden
+                type: image
+                settings:
+                  image_style: ''
+                  image_link: ''
+                third_party_settings: {  }
+              context_mapping:
+                entity: layout_builder.entity
+                view_mode: view_mode
+            additional: {  }
+            weight: 0
+          2f5ed2f8-acdd-4e80-9da9-f061cca3bbdb:
+            uuid: 2f5ed2f8-acdd-4e80-9da9-f061cca3bbdb
+            region: platform
+            configuration:
+              id: 'field_block:node:game:field_platform'
+              label: Platform
+              provider: layout_builder
+              label_display: '0'
+              formatter:
+                label: hidden
+                type: entity_reference_label
+                settings:
+                  link: false
+                third_party_settings: {  }
+              context_mapping:
+                entity: layout_builder.entity
+                view_mode: view_mode
+            additional: {  }
+            weight: 0
+          f75e418a-1537-4a87-be36-7343e4372700:
+            uuid: f75e418a-1537-4a87-be36-7343e4372700
+            region: year
+            configuration:
+              id: 'field_block:node:game:field_year'
+              label: Year
+              provider: layout_builder
+              label_display: '0'
+              formatter:
+                label: hidden
+                type: entity_reference_label
+                settings:
+                  link: false
+                third_party_settings: {  }
+              context_mapping:
+                entity: layout_builder.entity
+                view_mode: view_mode
+            additional: {  }
+            weight: 0
+        third_party_settings: {  }
 id: node.game.teaser
 targetEntityType: node
 bundle: game

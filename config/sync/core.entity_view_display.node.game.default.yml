@@ -10,8 +10,94 @@ dependencies:
     - node.type.game
   module:
     - image
+    - layout_builder
     - text
     - user
+third_party_settings:
+  layout_builder:
+    allow_custom: false
+    enabled: true
+    sections:
+      -
+        layout_id: layout_onecol
+        layout_settings:
+          label: ''
+        components:
+          c6ae4b32-575e-46ff-9308-277005a3a4f9:
+            uuid: c6ae4b32-575e-46ff-9308-277005a3a4f9
+            region: content
+            configuration:
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+              id: 'extra_field_block:node:game:links'
+            additional: {  }
+            weight: 0
+          58cc2ca0-a711-4edf-8345-88abbb933723:
+            uuid: 58cc2ca0-a711-4edf-8345-88abbb933723
+            region: content
+            configuration:
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+              id: 'field_block:node:game:body'
+              formatter:
+                label: hidden
+                type: text_default
+                settings: {  }
+                third_party_settings: {  }
+            additional: {  }
+            weight: 1
+          73db7a64-71ed-49e3-99ef-b9f7cfa7a5d6:
+            uuid: 73db7a64-71ed-49e3-99ef-b9f7cfa7a5d6
+            region: content
+            configuration:
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+              id: 'field_block:node:game:field_image'
+              formatter:
+                label: above
+                settings:
+                  image_style: ''
+                  image_link: ''
+                third_party_settings: {  }
+                type: image
+            additional: {  }
+            weight: 2
+          8965a621-5469-4fd9-96a0-f6c18ccd2d3b:
+            uuid: 8965a621-5469-4fd9-96a0-f6c18ccd2d3b
+            region: content
+            configuration:
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+              id: 'field_block:node:game:field_platform'
+              formatter:
+                label: above
+                settings:
+                  link: true
+                third_party_settings: {  }
+                type: entity_reference_label
+            additional: {  }
+            weight: 3
+          94fa499f-2356-487b-9ac9-211c63e338ca:
+            uuid: 94fa499f-2356-487b-9ac9-211c63e338ca
+            region: content
+            configuration:
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+              id: 'field_block:node:game:field_year'
+              formatter:
+                label: above
+                settings:
+                  link: true
+                third_party_settings: {  }
+                type: entity_reference_label
+            additional: {  }
+            weight: 4
+        third_party_settings: {  }
 id: node.game.default
 targetEntityType: node
 bundle: game
