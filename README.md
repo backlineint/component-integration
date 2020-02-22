@@ -13,6 +13,7 @@ Demo repository for 'An overview of front-end component integration methods in D
 * `lando start` - start local environment
 * `lando composer install` - install composer dependencies
 * Visit the URL that Lando provided to install Drupal
+* `lando drush cset system.site uuid 09c9f9a1-d7bc-4ede-a859-7b41ab8d0ce3` - update site uuid (in the future, I plan on providing a database seed or default content.)
 * `lando drush cim sync` - sync Drupal configuration
 * You'll likely want to add some example Game nodes
 
