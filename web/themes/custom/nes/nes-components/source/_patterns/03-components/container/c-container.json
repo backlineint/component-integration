@@ -1,0 +1,57 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "title": "Container",
+  "description": "NES Container",
+  "category": "pattern",
+  "type": "object",
+  "properties": {
+    "title": {
+      "title": "Title",
+      "type": "string"
+    },
+    "platform": {
+      "title": "Platform",
+      "type": "string"
+    },
+    "year": {
+      "title": "Year",
+      "type": "string"
+    },
+    "body": {
+      "title": "Body",
+      "type": "string",
+      "format": "textarea",
+      "options": {
+        "wysiwyg": true
+      }
+    },
+    "link": {
+      "title": "Link",
+      "type": "string"
+    },
+    "settings": {
+      "title": "Settings",
+      "type": "object",
+      "properties": {
+        "alignment": {
+          "title": "Item Alignment",
+          "type": "string",
+          "enum": [
+            "",
+            "left",
+            "right",
+            "center"
+          ],
+          "options": {
+            "enum_titles": [
+              "Default",
+              "Left",
+              "Right",
+              "Center"
+            ]
+          }
+        }
+      }
+    }
+  }
+}

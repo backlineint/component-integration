@@ -7,3 +7,5 @@ global-styling:
       nes-components/source/css/l-grid.css: {}
       css/drupal.css: {}
       https://fonts.googleapis.com/css?family=Press+Start+2P: { type: external }
+  patterns:
+    nes-components/source/_patterns/03-components/container: {plugin: twig}

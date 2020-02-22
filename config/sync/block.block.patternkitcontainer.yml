@@ -1,0 +1,25 @@
+uuid: 1e36fef6-888f-48d3-8e08-154bbc1de55b
+langcode: en
+status: true
+dependencies:
+  module:
+    - patternkit
+  theme:
+    - nes
+id: patternkitcontainer
+theme: nes
+region: content
+weight: 0
+provider: null
+plugin: 'patternkit_block:global-styling.c-container'
+settings:
+  id: 'patternkit_block:global-styling.c-container'
+  label: '[Patternkit] Container'
+  provider: patternkit
+  label_display: ''
+  presentation_style: html
+  version: 1.x
+  instance_uuid: 49a36d0e-780a-4a85-98e1-29eb8ee8a50d
+  pattern: '{"name":"c-container","title":"Container","attachments":null,"category":"pattern","config":null,"description":"NES Container","body":null,"filename":"c-container.twig","html":null,"path":"c-container","schema":{"$schema":"http:\/\/json-schema.org\/draft-04\/schema#","title":"Container","description":"NES Container","category":"pattern","type":"object","properties":{"title":{"title":"Title","type":"string"},"platform":{"title":"Platform","type":"string"},"year":{"title":"Year","type":"string"},"body":{"title":"Body","type":"string","format":"textarea","options":{"wysiwyg":true}},"link":{"title":"Link","type":"string"},"settings":{"title":"Settings","type":"object","properties":{"alignment":{"title":"Item Alignment","type":"string","enum":["","left","right","center"],"options":{"enum_titles":["Default","Left","Right","Center"]}}}}},"format":"grid","license":{"name":"GNU-GPL-2.0-or-later","url":"https:\/\/www.drupal.org\/licensing\/faq","gpl-compatible":true},"name":"c-container","required":[],"version":"1.x"},"template":"\u003Cdiv class=\u0022nes-container with-title is-centered\u0022\u003E\n  {% if title %}\n    \u003Ch2 class=\u0022title\u0022\u003E\u003Ca href={{ link }}\u003E{{ title }}\u003C\/a\u003E\u003C\/h2\u003E\n  {% endif %}\n  {% if platform or year %}\n    \u003Cdiv class=\u0022nes-badge is-splited\u0022\u003E\n      {% if platform %}\u003Cspan class=\u0022is-dark\u0022\u003E{{ platform }}\u003C\/span\u003E{% endif %}\n      {% if year %}\u003Cspan class=\u0022is-success\u0022\u003E{{ year }}\u003C\/span\u003E{% endif %}\n    \u003C\/div\u003E\n  {% endif %}\n  {% if image %}\n    {{ image }}\n  {% endif %}\n  {% if body %}\n    {{ body }}\n  {% endif %}\n  {% if link %}\n    \u003Ca class=\u0022nes-btn is-primary\u0022 href={{ link }}\u003EPress Start\u003C\/a\u003E\n  {% endif %}\n\u003C\/div\u003E","ttl":null,"url":"global-styling","version":"1.x"}'
+  patternkit_block_id: '1'
+visibility: {  }
