@@ -3,6 +3,7 @@
 Demo repository for 'An overview of front-end component integration methods in Drupal 8' Talk
 
 ## Slides
+* [Drupal Camp Asheville 2020](https://noti.st/brianperry/CXc9hM/an-overview-of-drupal-front-end-component-integration-methods)
 * [Florida Drupal Camp 2020](https://noti.st/brianperry/qKHUXG/an-overview-of-drupal-8-front-end-component-integration-methods)
 
 ## Prequsites
@@ -35,7 +36,7 @@ steps:
 
   `npm install`
 
-* In the root of the project: 
+* In the root of the project:
 
   `lando composer install`
 
