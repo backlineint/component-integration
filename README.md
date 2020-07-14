@@ -15,7 +15,7 @@ Demo repository for 'An overview of front-end component integration methods in D
 * From the root of this repository run:
 `./scripts/install.sh`
 (default account will be admin/admin)
-* You'll likely want to add some example Game nodes
+* You'll likely want to add some example Game nodes or add images to the default ones.
 
 ## Pattern Library
 
