@@ -21,7 +21,7 @@ Demo repository for 'An overview of front-end component integration methods in D
 
 A Pattern Lab instance is available within web/themes/custom/nes/nes-components
 
-For initial setup, run `npm install`
+For initial setup, run `npm install` (this will have run as part of the install script)
 
 To view pattern library, run `npm start`
 
