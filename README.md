@@ -28,20 +28,11 @@ To view pattern library, run `npm start`
 ## Integration Example Branches
 
 This repository consists of a number of feature branches demonstrating different
-component integration techniques. When changing branches you should follow these
-steps:
+component integration techniques. When changing branches you should run:
 
-* In web/themes/custom/nes/nes-components
+`./scripts/update.sh`
 
-  `npm install`
-
-* In the root of the project:
-
-  `lando composer install`
-
-  `lando drush cim sync`
-
-  `lando drush cr`
+In the root of the project.
 
 ### master
 
