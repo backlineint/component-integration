@@ -1,11 +1,10 @@
-uuid: bc5592a3-b6d5-4226-8fa4-735abd8a2519
+uuid: 44f475ab-5819-438b-8a90-33df3fca097b
 langcode: en
 status: true
 dependencies:
   config:
     - field.storage.node.field_year
     - node.type.game
-    - taxonomy.vocabulary.year
 id: node.game.field_year
 field_name: field_year
 entity_type: node
@@ -16,14 +15,5 @@ required: false
 translatable: false
 default_value: {  }
 default_value_callback: ''
-settings:
-  handler: 'default:taxonomy_term'
-  handler_settings:
-    target_bundles:
-      year: year
-    sort:
-      field: name
-      direction: asc
-    auto_create: true
-    auto_create_bundle: ''
-field_type: entity_reference
+settings: {  }
+field_type: string
