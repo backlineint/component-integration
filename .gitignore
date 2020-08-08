@@ -1,2 +1,5 @@
 vendor
 node_modules
+.idea
+drupal8.*.sql.gz
+.DS_Store
