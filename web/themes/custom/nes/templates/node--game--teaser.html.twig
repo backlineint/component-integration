@@ -73,6 +73,9 @@
 {%
   set classes = [
     'node',
+    'nes-container',
+    'with-title',
+    'is-centered',
     'node--type-' ~ node.bundle|clean_class,
     node.isPromoted() ? 'node--promoted',
     node.isSticky() ? 'node--sticky',
@@ -82,14 +85,24 @@
 %}
 {{ attach_library('classy/node') }}
 <article{{ attributes.addClass(classes) }}>
-  {% include "@components/container/c-container.twig" 
-    with {
-      'title': label,
-      'link': url,
-      'platform': content.field_platform,
-      'year': content.field_year,
-      'image': content.field_image,
-      'body': content.body
-    }
-  %}
+
+  {{ title_prefix }}
+  {% if label and not page %}
+    <h2{{ title_attributes.addClass('title') }}>
+      <a href="{{ url }}" rel="bookmark">{{ label }}</a>
+    </h2>
+  {% endif %}
+  {{ title_suffix }}
+
+  <div{{ content_attributes.addClass('node__content') }}>
+    {% if content.field_platform or content.field_year %}
+      <div class="nes-badge is-splited">
+        {% if content.field_platform %}<span class="is-dark">{{ content.field_platform }}</span>{% endif %}
+        {% if content.field_year %}<span class="is-success">{{ content.field_year }}</span>{% endif %}
+      </div>
+    {% endif %}
+    {{ content|without('field_platform', 'field_year') }}
+    <a class="nes-btn is-primary" href="{{ url }}" rel="bookmark">Press Start</a>
+  </div>
+
 </article>

@@ -15,22 +15,18 @@
  * @see template_preprocess_views_view_unformatted()
  */
 #}
-{% if title %}
-  <h3>{{ title }}</h3>
-{% endif %}
-{% embed '@layouts/grid/_l-grid.twig' %}
-  
-  {% block results %}
-    {% for row in rows %}
-      {%
-        set row_classes = [
-          default_row_class ? 'views-row',
-        ]
-      %}
-      <div{{ row.attributes.addClass(row_classes) }}>
-        {{- row.content -}}
-      </div>
-    {% endfor %}
-  {% endblock %}
-
-{% endembed %}
+<div class="l-grid">
+  {% if title %}
+    <h3>{{ title }}</h3>
+  {% endif %}
+  {% for row in rows %}
+    {%
+      set row_classes = [
+        default_row_class ? 'views-row',
+      ]
+    %}
+    <div{{ row.attributes.addClass(row_classes) }}>
+      {{- row.content -}}
+    </div>
+  {% endfor %}
+</div>
