@@ -7,6 +7,9 @@ Demo repository for 'An overview of front-end component integration methods in D
 * [Drupal Camp Asheville 2020](https://noti.st/brianperry/CXc9hM/an-overview-of-drupal-front-end-component-integration-methods)
 * [Florida Drupal Camp 2020](https://noti.st/brianperry/qKHUXG/an-overview-of-drupal-8-front-end-component-integration-methods)
 
+## Upcoming Presentations
+* [DrupalCon Barcelona](https://events.drupal.org/barcelona2020/preliminary-program)
+
 ## Prequsites
 * Lando - https://docs.lando.dev/
 * NodeJS - https://nodejs.org/en/
@@ -15,7 +18,7 @@ Demo repository for 'An overview of front-end component integration methods in D
 * From the root of this repository run:
 `./scripts/install.sh`
 (default account will be admin/admin)
-* You'll likely want to add some example Game nodes or add images to the default ones.
+The install script will create a small sampling of Game nodes.
 
 ## Pattern Library
 

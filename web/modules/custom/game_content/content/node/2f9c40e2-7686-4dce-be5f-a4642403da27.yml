@@ -1,0 +1,55 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 2f9c40e2-7686-4dce-be5f-a4642403da27
+  bundle: game
+  default_langcode: en
+  depends:
+    f00634ce-065e-4cc1-b18b-bda0fc00f768: file
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Mega Man 3'
+  created:
+    -
+      value: 1595434050
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: en
+  body:
+    -
+      value: "<p>Mega Man 3&nbsp;is an action-platform video game developed and published by Capcom.</p>\r\n"
+      format: basic_html
+      summary: ''
+  field_image:
+    -
+      entity: f00634ce-065e-4cc1-b18b-bda0fc00f768
+      alt: 'Boss selection screen'
+      title: ''
+      width: 100
+      height: 90
+  field_platform:
+    -
+      value: NES
+  field_year:
+    -
+      value: 1990
