@@ -1,0 +1,55 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 1523684d-5892-4266-a9d8-9d8356e631df
+  bundle: game
+  default_langcode: en
+  depends:
+    7bb2165e-209e-47c7-af82-de71fa393626: file
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Metroid Prime'
+  created:
+    -
+      value: 1595433875
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: en
+  body:
+    -
+      value: "<p>Metroid Prime is the fifth main installment in the Metroid series, and the first Metroid game played from the first-person perspective.</p>\r\n"
+      format: basic_html
+      summary: ''
+  field_image:
+    -
+      entity: 7bb2165e-209e-47c7-af82-de71fa393626
+      alt: Samus
+      title: ''
+      width: 100
+      height: 56
+  field_platform:
+    -
+      value: GC
+  field_year:
+    -
+      value: 2002

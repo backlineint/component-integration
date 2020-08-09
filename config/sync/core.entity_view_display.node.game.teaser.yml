@@ -22,14 +22,14 @@ content:
   body:
     label: hidden
     type: text_summary_or_trimmed
-    weight: 3
+    weight: 1
     settings:
       trim_length: 600
     third_party_settings: {  }
     region: content
   field_image:
     type: image
-    weight: 2
+    weight: 0
     region: content
     label: hidden
     settings:
@@ -37,20 +37,20 @@ content:
       image_link: ''
     third_party_settings: {  }
   field_platform:
-    type: entity_reference_label
-    weight: 0
+    type: string
+    weight: 2
     region: content
     label: hidden
     settings:
-      link: false
+      link_to_entity: false
     third_party_settings: {  }
   field_year:
-    type: entity_reference_label
-    weight: 1
+    type: string
+    weight: 3
     region: content
     label: hidden
     settings:
-      link: false
+      link_to_entity: false
     third_party_settings: {  }
 hidden:
   links: true

@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 37d68e9f-5bae-455b-8be4-5bfc5a3938d0
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: mario_4.jpg
+  uri:
+    -
+      value: 'public://2020-07/mario_4.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 18737
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1595356982
