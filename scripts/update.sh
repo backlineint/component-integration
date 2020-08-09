@@ -2,7 +2,7 @@
 
 lando start
 lando composer install
-lando drush updb
+lando drush updb --no-interaction
 lando drush cr
 lando drush cim sync --no-interaction
 lando drush cr
