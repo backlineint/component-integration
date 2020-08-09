@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: f00634ce-065e-4cc1-b18b-bda0fc00f768
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: mm3.png
+  uri:
+    -
+      value: 'public://2020-07/mm3.png'
+  filemime:
+    -
+      value: image/png
+  filesize:
+    -
+      value: 20873
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1595434091

@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 7bb2165e-209e-47c7-af82-de71fa393626
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: metroidprime.jpg
+  uri:
+    -
+      value: 'public://2020-07/metroidprime.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 2330
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1595433979

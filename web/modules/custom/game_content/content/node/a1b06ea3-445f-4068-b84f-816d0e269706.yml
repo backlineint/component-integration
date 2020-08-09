@@ -1,0 +1,55 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: a1b06ea3-445f-4068-b84f-816d0e269706
+  bundle: game
+  default_langcode: en
+  depends:
+    37d68e9f-5bae-455b-8be4-5bfc5a3938d0: file
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Super Mario Galaxy 2'
+  created:
+    -
+      value: 1595356933
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: en
+  field_year:
+    -
+      value: 2010
+  body:
+    -
+      value: "<p>Super Mario Galaxy 2 is a platform video game developed and published by Nintendo for the Wii.</p>\r\n"
+      format: basic_html
+      summary: ''
+  field_image:
+    -
+      entity: 37d68e9f-5bae-455b-8be4-5bfc5a3938d0
+      alt: 'Mario and Luma'
+      title: ''
+      width: 100
+      height: 65
+  field_platform:
+    -
+      value: Wii
