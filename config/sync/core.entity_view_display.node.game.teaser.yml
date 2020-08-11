@@ -11,9 +11,74 @@ dependencies:
     - image.style.pixelated
     - node.type.game
   module:
+    - component_blocks
     - image
+    - layout_builder
+    - layout_discovery
     - text
     - user
+third_party_settings:
+  layout_builder:
+    allow_custom: false
+    enabled: true
+    sections:
+      -
+        layout_id: layout_onecol
+        layout_settings:
+          label: 'Container Section'
+        components:
+          c0c5cccc-f3f8-4058-a3ca-59280ffe6ccd:
+            uuid: c0c5cccc-f3f8-4058-a3ca-59280ffe6ccd
+            region: content
+            configuration:
+              id: 'component_blocks:node:c_container'
+              label: Container
+              provider: component_blocks
+              label_display: '0'
+              variables:
+                title:
+                  source: title
+                  value: ''
+                  label: ''
+                  type: string
+                  settings:
+                    link_to_entity: true
+                platform:
+                  source: field_platform
+                  value: ''
+                  label: ''
+                  type: string
+                  settings:
+                    link_to_entity: false
+                year:
+                  source: field_year
+                  value: ''
+                  label: ''
+                  type: string
+                  settings:
+                    link_to_entity: false
+                image:
+                  source: field_image
+                  value: ''
+                  label: ''
+                  type: image
+                  settings:
+                    image_style: pixelated
+                    image_link: ''
+                body:
+                  source: body
+                  value: ''
+                  label: ''
+                  type: text_default
+                link:
+                  source: __fixed
+                  value: '#'
+                  label: ''
+              context_mapping:
+                entity: layout_builder.entity
+            additional: {  }
+            weight: 0
+        third_party_settings: {  }
 id: node.game.teaser
 targetEntityType: node
 bundle: game

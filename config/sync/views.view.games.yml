@@ -3,6 +3,7 @@ langcode: en
 status: true
 dependencies:
   config:
+    - core.entity_view_mode.node.teaser
     - field.storage.node.body
     - field.storage.node.field_image
     - field.storage.node.field_platform
@@ -13,7 +14,6 @@ dependencies:
     - image
     - node
     - text
-    - ui_patterns_views
     - user
 id: games
 label: Games
@@ -75,50 +75,10 @@ display:
       style:
         type: default
       row:
-        type: ui_patterns
+        type: 'entity:node'
         options:
-          default_field_elements: 0
-          inline:
-            title: 0
-            body: 0
-            field_image: 0
-            view_node: 0
-            field_platform: 0
-            field_year: 0
-          separator: ''
-          hide_empty: 1
-          pattern: c_container
-          pattern_mapping:
-            'views_row:title':
-              destination: title
-              weight: 0
-              plugin: views_row
-              source: title
-            'views_row:body':
-              destination: body
-              weight: 1
-              plugin: views_row
-              source: body
-            'views_row:field_image':
-              destination: image
-              weight: 2
-              plugin: views_row
-              source: field_image
-            'views_row:view_node':
-              destination: link
-              weight: 3
-              plugin: views_row
-              source: view_node
-            'views_row:field_platform':
-              destination: platform
-              weight: 4
-              plugin: views_row
-              source: field_platform
-            'views_row:field_year':
-              destination: year
-              weight: 5
-              plugin: views_row
-              source: field_year
+          relationship: none
+          view_mode: teaser
       fields:
         title:
           id: title

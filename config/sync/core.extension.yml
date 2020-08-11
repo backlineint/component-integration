@@ -7,6 +7,7 @@ module:
   ckeditor: 0
   color: 0
   comment: 0
+  component_blocks: 0
   components: 0
   config: 0
   contact: 0
@@ -26,6 +27,8 @@ module:
   history: 0
   image: 0
   jsonapi: 0
+  layout_builder: 0
+  layout_discovery: 0
   link: 0
   menu_ui: 0
   node: 0
@@ -46,7 +49,6 @@ module:
   ui_patterns: 0
   ui_patterns_library: 0
   ui_patterns_pattern_lab: 0
-  ui_patterns_views: 0
   user: 0
   views_ui: 0
   menu_link_content: 1
