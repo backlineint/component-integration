@@ -7,6 +7,10 @@ Demo repository for 'An overview of front-end component integration methods in D
 * [Drupal Camp Asheville 2020](https://noti.st/brianperry/CXc9hM/an-overview-of-drupal-front-end-component-integration-methods)
 * [Florida Drupal Camp 2020](https://noti.st/brianperry/qKHUXG/an-overview-of-drupal-8-front-end-component-integration-methods)
 
+## Decoupled Version
+* [Slides](https://noti.st/brianperry/roIloi/an-overview-of-drupal-8-front-end-component-integration-methods-decoupled-edition)
+* [Sandbox Repo](https://github.com/backlineint/component-int-decoupled)
+
 ## Upcoming Presentations
 * [DrupalCon Barcelona](https://events.drupal.org/barcelona2020/preliminary-program)
 
@@ -69,6 +73,6 @@ Integration using UI Patterns and automatic discovery.
 
 Integration using Drupal layouts.
 
-### patternkit
+### component-blocks
 
-Integration using Patternkit.
+Integration using the Component Blocks module.
