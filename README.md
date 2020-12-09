@@ -3,6 +3,7 @@
 Demo repository for 'An overview of front-end component integration methods in Drupal 8' Talk
 
 ## Slides
+* [DrupalCon Europe](https://noti.st/brianperry/Sr1CNY/an-overview-of-drupal-front-end-component-integration-methods)
 * [DrupalCon Global](https://noti.st/brianperry/RB3lSA/an-overview-of-drupal-front-end-component-integration-methods)
 * [Drupal Camp Asheville 2020](https://noti.st/brianperry/CXc9hM/an-overview-of-drupal-front-end-component-integration-methods)
 * [Florida Drupal Camp 2020](https://noti.st/brianperry/qKHUXG/an-overview-of-drupal-8-front-end-component-integration-methods)
@@ -10,9 +11,6 @@ Demo repository for 'An overview of front-end component integration methods in D
 ## Decoupled Version
 * [Slides](https://noti.st/brianperry/roIloi/an-overview-of-drupal-8-front-end-component-integration-methods-decoupled-edition)
 * [Sandbox Repo](https://github.com/backlineint/component-int-decoupled)
-
-## Upcoming Presentations
-* [DrupalCon Barcelona](https://events.drupal.org/barcelona2020/preliminary-program)
 
 ## Prequsites
 * Lando - https://docs.lando.dev/
